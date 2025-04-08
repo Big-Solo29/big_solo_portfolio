@@ -4,7 +4,7 @@ const LoadingScreen = ({onComplete}) => {
 
 
     const [text, setText] = useState("")
-    const fullText = "<Hello, Welcome To My Portfolio Website... />"
+    const fullText = "<Hello, Welcome ... />"
 
 
     useEffect(() => {

@@ -8,6 +8,7 @@ import About from './components/sections/About';
 import Projects from './components/sections/Projects';
 import Contact from './components/sections/Contact';
 import Footer from './components/Footer';
+import { ToastContainer } from 'react-toastify';
 const App = () => {
 
 
@@ -24,6 +25,7 @@ const App = () => {
     "opacity-100" : "opacity-0"} bg-black text-gray-100`}>
 
 <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+<ToastContainer />
 <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
 <Home />
 <About />
